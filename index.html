@@ -1,41 +1,92 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="دليل العرب في موسكو للعثور على خدمات السكن والترجمة والنقل والتعليم والخدمات اليومية.">
-<meta name="theme-color" content="#123c35">
-<title>دليل العرب في موسكو | خدماتك أقرب إليك</title>
-<style>
-:root{--green:#123c35;--green2:#1f6658;--cream:#f7f5ef;--ink:#172421;--muted:#64736e;--line:#e2e8e4;--gold:#e9bd68;--white:#fff;--shadow:0 12px 32px rgba(18,60,53,.08)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.75}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.topbar{background:var(--green);color:#eaf3ef;font-size:13px;padding:8px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.nav{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:18px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px}.logo{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--gold);color:var(--green);font-weight:900;font-size:22px}.navlinks{display:flex;gap:18px;align-items:center;font-size:14px;color:#42534d}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:12px;padding:12px 18px;font-weight:700;font-family:inherit;cursor:pointer;transition:.2s}.btn-primary{background:var(--green);color:white}.btn-primary:hover{background:var(--green2);transform:translateY(-1px)}.btn-light{background:white;color:var(--green);border:1px solid var(--line)}.hero{padding:38px 0 52px}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:32px;align-items:center}.eyebrow{display:inline-block;color:var(--green2);background:#e5eee8;padding:5px 12px;border-radius:99px;font-size:13px;font-weight:700}.hero h1{font-size:clamp(32px,5vw,54px);line-height:1.25;margin:18px 0 14px;letter-spacing:-1px}.hero h1 span{color:var(--green2)}.hero p{color:var(--muted);font-size:17px;max-width:610px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.hero-visual{background:linear-gradient(145deg,#164b41,#0c2d28);border-radius:28px;padding:25px;color:white;min-height:320px;position:relative;overflow:hidden;box-shadow:var(--shadow)}.hero-visual:before,.hero-visual:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.13);border-radius:50%;width:260px;height:260px;left:-75px;top:-85px}.hero-visual:after{width:340px;height:340px;left:-115px;top:-125px}.moscow-art{font-size:68px;line-height:1.2;margin:18px 0;position:relative;z-index:1}.visual-title{font-size:24px;font-weight:800;position:relative;z-index:1}.visual-sub{color:#c8ddd5;position:relative;z-index:1}.floating{background:white;color:var(--ink);border-radius:15px;padding:12px 15px;display:flex;align-items:center;gap:12px;position:relative;z-index:1;margin-top:16px;max-width:280px;box-shadow:0 8px 25px #001b1733}.floating b{display:block;font-size:14px}.floating small{color:var(--muted)}.section{padding:46px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:24px}.section-head h2{font-size:clamp(24px,3vw,34px);margin:0}.section-head p{color:var(--muted);margin:5px 0 0}.searchbox{display:flex;gap:10px;background:white;padding:10px;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);margin:0 0 22px}.searchbox input,.searchbox select{min-width:0;flex:1;border:0;outline:0;padding:10px;background:transparent;font:inherit;color:var(--ink)}.category-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.category{background:white;border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;gap:14px;align-items:center;transition:.2s}.category:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.cat-icon{width:52px;height:52px;display:grid;place-items:center;background:#eaf1ec;border-radius:15px;font-size:25px;flex-shrink:0}.category h3{margin:0;font-size:17px}.category p{margin:3px 0 0;color:var(--muted);font-size:13px}.listing-note{border:1px dashed #b9c9c0;border-radius:18px;padding:28px;text-align:center;background:#f0f4f0}.listing-note .big{font-size:35px}.listing-note h3{margin:5px 0}.listing-note p{color:var(--muted);margin:5px auto 18px;max-width:580px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{background:white;border:1px solid var(--line);border-radius:18px;padding:22px}.step-no{width:36px;height:36px;display:grid;place-items:center;border-radius:11px;background:var(--green);color:white;font-weight:800}.step h3{margin:12px 0 5px}.step p{color:var(--muted);font-size:14px;margin:0}.join{background:#e7eee8;border-radius:26px;padding:32px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}.join h2{margin:0 0 6px;font-size:28px}.join p{margin:0;color:var(--muted)}.form{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:14px;font-weight:700}.field input,.field select,.field textarea{border:1px solid var(--line);border-radius:11px;padding:12px;font:inherit;background:white;min-width:0}.field textarea{min-height:95px;resize:vertical}.hint{color:var(--muted);font-size:12px}.notice{background:#fff7e6;border:1px solid #f0dba8;padding:13px 15px;border-radius:12px;font-size:13px;color:#6e5728}.footer{margin-top:40px;background:var(--green);color:#e7f0ec;padding:34px 0}.footer-grid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer p{color:#c5d8d0;margin:6px 0}.footer small{color:#afc6bc}.toast{display:none;padding:12px;background:#e5f2e9;border:1px solid #b5d8bf;color:#164b2c;border-radius:10px;margin-top:12px}.empty{display:none;text-align:center;color:var(--muted);padding:20px}.pill{display:inline-block;background:#edf3ef;color:var(--green);font-size:12px;padding:4px 9px;border-radius:99px}
-@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.hero-visual{min-height:260px}.navlinks{display:none}.category-grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.join{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.searchbox{flex-wrap:wrap}.searchbox input,.searchbox select{flex-basis:100%;border-bottom:1px solid var(--line)}.form{grid-template-columns:1fr}.field.full{grid-column:auto}.moscow-art{font-size:55px}}
-@media(max-width:430px){.category-grid{grid-template-columns:1fr}.hero-actions .btn{width:100%}.brand{font-size:17px}}
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="دليل العرب في موسكو - دليل الخدمات العربية">
+    <meta name="theme-color" content="#123c35">
+    <title>دليل العرب في موسكو | خدماتك أقرب إليك</title>
+    <style>
+        :root{--green:#123c35;--green2:#1f6658;--bg:#f4f7f6;--text:#222;--card-bg:#fff;}
+        *{box-sizing:border-box}
+        body{font-family:system-ui, -apple-system, sans-serif;margin:0;background:var(--bg);color:var(--text);direction:rtl;}
+        header{background:var(--green);color:#fff;padding:20px;text-align:center;}
+        .wrap{max-width:800px;margin:0 auto;padding:15px;}
+        .hero{text-align:center;padding:15px 0;}
+        .card-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:20px;margin-top:20px;}
+        .card{background:var(--card-bg);border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,0.06);border-right:5px solid var(--green2);}
+        .card h3{margin-top:8px;color:var(--green);}
+        .badge{background:#eef5f3;color:#1f6658;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:bold;}
+        .btn{display:block;padding:12px;border-radius:8px;text-decoration:none;font-weight:bold;margin-top:8px;text-align:center;}
+        .btn-call{background:#25d366;color:#fff;}
+        .btn-tg{background:#0088cc;color:#fff;}
+        .btn-sub{background:#2f9cd4;color:#fff;}
+        form{background:#fff;padding:20px;border-radius:12px;margin-top:35px;box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+        form input, form textarea{width:100%;padding:12px;margin:8px 0;border:1px solid #ddd;border-radius:6px;}
+        form button{background:var(--green);color:#fff;border:none;padding:14px;width:100%;border-radius:6px;font-size:16px;font-weight:bold;cursor:pointer;}
+    </style>
 </head>
 <body>
-<div class="topbar"><div class="wrap"><span>دليل محلي للعرب في موسكو</span><span>معلومات واضحة • تواصل مباشر • خدمات متنوعة</span></div></div>
-<header class="wrap">
-  <nav class="nav"><a class="brand" href="#home"><span class="logo">د</span><span>دليل العرب في موسكو</span></a><div class="navlinks"><a href="#categories">الأقسام</a><a href="#how">كيف يعمل؟</a><a href="#add">أضف خدمتك</a></div><a class="btn btn-primary" href="#add">أضف خدمتك مجانًا</a></nav>
+
+<header>
+    <h1>دليل العرب في موسكو 🇷🇺</h1>
+    <p>البوابة الشاملة للخدمات العربية في العاصمة الروسية</p>
 </header>
-<main>
-<section class="hero" id="home"><div class="wrap hero-grid"><div><span class="eyebrow">بوابتك للخدمات في موسكو</span><h1>تبحث عن خدمة في موسكو؟<br><span>ابدأ من هنا.</span></h1><p>دليل عربي يساعدك في العثور على خدمات السكن والترجمة والنقل والتعليم والخدمات اليومية في موسكو، والتواصل مباشرة مع مقدم الخدمة.</p><div class="hero-actions"><a class="btn btn-primary" href="#categories">تصفّح الأقسام <span>←</span></a><a class="btn btn-light" href="#add">أضف نشاطك</a></div><p class="hint">الدليل في مرحلة الإطلاق؛ نضيف مقدمي الخدمات بعد موافقتهم والتحقق من بيانات الإعلان.</p></div><div class="hero-visual"><div class="visual-title">موسكو أقرب إليك</div><div class="visual-sub">خدمات محلية تجمعها منصة واحدة</div><div class="moscow-art" aria-hidden="true">🏙️ 🇷🇺</div><div class="floating"><span style="font-size:26px">📍</span><div><b>موسكو، روسيا</b><small>اختر القسم وابحث عن الخدمة</small></div></div></div></div></section>
-<section class="section" id="categories"><div class="wrap"><div class="section-head"><div><h2>تصفّح الخدمات</h2><p>اختر القسم الذي يناسب احتياجك.</p></div><span class="pill">موسكو فقط حاليًا</span></div><div class="searchbox"><input id="search" type="search" placeholder="ابحث عن خدمة، مثل: مترجم أو سكن" aria-label="ابحث عن خدمة"><select id="categoryFilter" aria-label="فلترة الأقسام"><option value="all">جميع الأقسام</option><option value="housing">السكن والعقارات</option><option value="translation">الترجمة</option><option value="transport">النقل والتوصيل</option><option value="education">التعليم والعمل</option><option value="food">المطاعم والمتاجر</option><option value="home">الصيانة والخدمات</option></select></div><div class="category-grid" id="categoryGrid">
-<a class="category" data-category="housing" data-search="السكن العقارات شقق ايجار housing apartment" href="#add"><span class="cat-icon">🏠</span><span><h3>السكن والعقارات</h3><p>شقق، سكن مؤقت، ووسطاء</p></span></a>
-<a class="category" data-category="translation" data-search="الترجمة مترجم عربي روسي translation interpreter" href="#add"><span class="cat-icon">🗣️</span><span><h3>الترجمة</h3><p>ترجمة ومساعدة لغوية</p></span></a>
-<a class="category" data-category="transport" data-search="النقل التوصيل مطار سيارة transport taxi" href="#add"><span class="cat-icon">🚕</span><span><h3>النقل والتوصيل</h3><p>نقل أفراد وأمتعة</p></span></a>
-<a class="category" data-category="education" data-search="التعليم العمل مدرس روسية دروس وظائف education" href="#add"><span class="cat-icon">📚</span><span><h3>التعليم والعمل</h3><p>مدرسون ودعم مهني</p></span></a>
-<a class="category" data-category="food" data-search="المطاعم المتاجر طعام متجر restaurant shop" href="#add"><span class="cat-icon">🍽️</span><span><h3>المطاعم والمتاجر</h3><p>مطاعم ومحلات ومنتجات</p></span></a>
-<a class="category" data-category="home" data-search="الصيانة خدمات تنظيف اصلاح منزل home repair cleaning" href="#add"><span class="cat-icon">🛠️</span><span><h3>الصيانة والخدمات</h3><p>تنظيف وإصلاحات منزلية</p></span></a>
-</div><div class="empty" id="empty">لا توجد أقسام مطابقة للبحث. جرّب كلمة أخرى.</div></div></section>
-<section class="section" style="padding-top:0"><div class="wrap"><div class="listing-note"><div class="big">🤝</div><h3>ساعدنا في بناء دليل مفيد</h3><p>نحن نجمع الإعلانات المحلية بموافقة أصحابها. إذا كنت تقدم خدمة في موسكو، أرسل بياناتك لتتم مراجعتها قبل نشرها. لا توجد إعلانات لمقدمي خدمات حقيقيين في النسخة الأولية بعد.</p><a class="btn btn-primary" href="#add">سجّل خدمتك</a></div></div></section>
-<section class="section" id="how"><div class="wrap"><div class="section-head"><div><h2>كيف يعمل الدليل؟</h2><p>ثلاث خطوات بسيطة للعثور على الخدمة أو إضافتها.</p></div></div><div class="steps"><article class="step"><div class="step-no">١</div><h3>اختر القسم</h3><p>تصفح الفئات أو استخدم البحث للعثور على نوع الخدمة الذي تحتاجه.</p></article><article class="step"><div class="step-no">٢</div><h3>راجع التفاصيل</h3><p>تحقق من وصف الخدمة والمنطقة والسعر وطريقة التواصل قبل الاتفاق.</p></article><article class="step"><div class="step-no">٣</div><h3>تواصل مباشرة</h3><p>اتفق مع مقدم الخدمة مباشرة عبر واتساب أو تيليغرام بعد التحقق من بياناته.</p></article></div></div></section>
-<section class="section" id="add"><div class="wrap"><div class="join"><div><span class="eyebrow">لأصحاب الأعمال ومقدمي الخدمات</span><h2>أضف خدمتك إلى الدليل</h2><p>ابدأ بإدراج أساسي مجاني خلال مرحلة الإطلاق. أرسل معلوماتك وسنراجعها قبل النشر.</p><p class="hint">تدير هذا الدليل إدارةُ دليل العرب في موسكو. تُجهّز البيانات رسالة للمراجعة ولا تُرسل تلقائيًا.</p></div><div><span class="cat-icon" style="width:76px;height:76px;font-size:36px">📣</span></div></div>
-<div style="height:18px"></div><form id="providerForm" class="form"><div class="field"><label for="providerName">اسم النشاط أو مقدم الخدمة *</label><input id="providerName" required maxlength="100" placeholder="مثال: مترجم عربي روسي"></div><div class="field"><label for="providerCategory">نوع الخدمة *</label><select id="providerCategory" required><option value="">اختر القسم</option><option>السكن والعقارات</option><option>الترجمة</option><option>النقل والتوصيل</option><option>التعليم والعمل</option><option>المطاعم والمتاجر</option><option>الصيانة والخدمات</option><option>أخرى</option></select></div><div class="field"><label for="providerArea">المنطقة داخل موسكو</label><input id="providerArea" maxlength="100" placeholder="اسم الحي أو المناطق التي تخدمها"></div><div class="field"><label for="providerPrice">السعر (اختياري)</label><input id="providerPrice" maxlength="100" placeholder="مثال: من 1,000 روبل"></div><div class="field"><label for="providerContactType">طريقة التواصل *</label><select id="providerContactType" required><option value="واتساب">واتساب</option><option value="تيليغرام">تيليغرام</option><option value="كلاهما">واتساب وتيليغرام</option></select></div><div class="field"><label for="providerContact">رقم واتساب أو اسم مستخدم تيليغرام *</label><input id="providerContact" required maxlength="100" placeholder="رقم دولي أو @username"></div><div class="field full"><label for="providerDescription">وصف الخدمة</label><textarea id="providerDescription" maxlength="600" placeholder="اكتب ما تقدمه وأوقات العمل أو التفاصيل المهمة"></textarea></div><div class="field full"><label style="display:flex;gap:9px;align-items:start;font-weight:400"><input id="consent" type="checkbox" required style="margin-top:7px;flex-shrink:0"> أوافق على استخدام البيانات التي أدخلتها لمراجعة الإعلان، وأوافق على نشر بيانات التواصل التي اخترت تقديمها إذا تمت الموافقة على الإعلان.</label></div><div class="field full"><button class="btn btn-primary" type="submit">تجهيز طلب التسجيل</button><div id="formMessage" class="toast" role="status"></div><div class="notice">تنبيه: عند الضغط على الزر ستُنشأ رسالة قابلة للنسخ أو الإرسال من جهازك. لن تُحفظ البيانات على هذا الموقع تلقائيًا؛ اربط نموذجًا فعليًا مثل Google Forms قبل نشر الموقع للجمهور.</div></div></form></div></section>
-<section class="section" id="contact" style="padding-top:0"><div class="wrap"><div class="section-head"><div><h2>تواصل مع إدارة الدليل</h2><p>للاستفسارات وإضافة الخدمات، تواصل مع إدارة دليل العرب في موسكو.</p></div></div><div class="join"><div><span class="eyebrow">إدارة دليل العرب في موسكو</span><h2>هل لديك سؤال أو تريد إضافة خدمتك؟</h2><p>راسلنا عبر تيليغرام، وسنراجع بيانات الخدمة قبل نشرها في الدليل.</p><p class="hint">اسم حساب تيليغرام: @Naser_aboud</p></div><a class="btn btn-primary" href="https://t.me/Naser_aboud" target="_blank" rel="noopener noreferrer">تواصل عبر تيليغرام ↗</a></div><p class="hint">واتساب سيُضاف عند توفير رقم مخصص للمشروع. لا نعرض رقمًا شخصيًا دون موافقة صاحبه.</p></div></section>
-</main>
-<footer class="footer"><div class="wrap footer-grid"><div><div class="brand"><span class="logo">د</span><span>دليل العرب في موسكو</span></div><p>خدماتك في موسكو، أقرب إليك.</p><p>إدارة الموقع: إدارة دليل العرب في موسكو</p></div><div><b>روابط سريعة</b><p><a href="#categories">الأقسام</a> · <a href="#how">كيف يعمل؟</a> · <a href="#add">أضف خدمتك</a></p><small>© <span id="year"></span> دليل العرب في موسكو. المعلومات مسؤولية مقدمي الخدمات، ويجب التحقق منها قبل الاتفاق.</small></div></div></footer>
+
+<div class="wrap">
+    <section class="hero">
+        <h2>الخدمات المتاحة حالياً</h2>
+    </section>
+
+    <!-- قائمة الخدمات المضافة -->
+    <div class="card-grid">
+
+        <!-- الخدمة 1: حجامة وعلاج فيزيائي -->
+        <div class="card">
+            <span class="badge">🩺 خدمات صحية وعلاج طبيعي</span>
+            <h3>حجامة وعلاج فيزيائي</h3>
+            <p>خدمات متخصصة واحترافية في الحجامة والعلاج الطبيعي والفيزيائي في موسكو.</p>
+            <a href="tel:+79015034848" class="btn btn-call">📞 اتصال: 79015034848+</a>
+            <a href="https://wa.me/79015034848" target="_blank" class="btn btn-call" style="background:#128c7e;">💬 تواصل عبر الواتساب</a>
+        </div>
+
+        <!-- الخدمة 2: Nerds AR -->
+        <div class="card">
+            <span class="badge">📚 التعليم والخدمات الطلابية</span>
+            <h3>Nerds AR - مساعدة أكاديمية وخدمات طلابية</h3>
+            <p>فريق متخصص بإشراف م. سارة (دبلوم أحمر في روسيا) لمساعدة الطلاب في جميع المواد، مشاريع التخرج (بكالوريوس - ماجستير - دكتوراه)، ونشر الأوراق العلمية باللغات العربية، الروسية، والإنجليزي.</p>
+            <p><strong>💰 السعر:</strong> تبدأ من 700 روبيل (أسعار طلابية)</p>
+            <a href="https://t.me/+YYPlvakATdIwZDEy" target="_blank" class="btn btn-tg">👥 انضم لمجموعة الطلاب على Telegram</a>
+            <a href="https://t.me/workacc007" target="_blank" class="btn btn-sub">💬 تواصل مباشر مع الإدارة (@workacc007)</a>
+        </div>
+
+    </div>
+
+    <!-- نموذج إضافة خدمة جديدة -->
+    <form onsubmit="sendToTelegram(event)">
+        <h3>➕ أضف خدمتك مجاناً في الدليل</h3>
+        <input type="text" id="s_name" placeholder="اسم الخدمة / النشاط" required>
+        <textarea id="s_desc" placeholder="وصف الخدمة والتفاصيل" required></textarea>
+        <input type="text" id="s_phone" placeholder="رقم الهاتف / حساب تيليغرام" required>
+        <button type="submit">إرسال الخدمة عبر Telegram 🚀</button>
+    </form>
+</div>
+
 <script>
-const searchInput=document.getElementById('search');const filter=document.getElementById('categoryFilter');const cards=[...document.querySelectorAll('.category')];const empty=document.getElementById('empty');function filterCards(){const q=searchInput.value.trim().toLowerCase();let count=0;cards.forEach(card=>{const matchesText=(card.dataset.search+' '+card.innerText).toLowerCase().includes(q);const matchesCategory=filter.value==='all'||card.dataset.category===filter.value;const show=matchesText&&matchesCategory;card.style.display=show?'flex':'none';if(show)count++});empty.style.display=count?'none':'block'}searchInput.addEventListener('input',filterCards);filter.addEventListener('change',filterCards);document.getElementById('year').textContent=new Date().getFullYear();
-document.getElementById('providerForm').addEventListener('submit',function(e){e.preventDefault();const data={name:document.getElementById('providerName').value.trim(),category:document.getElementById('providerCategory').value,area:document.getElementById('providerArea').value.trim()||'غير محددة',price:document.getElementById('providerPrice').value.trim()||'لم يحدد',contactType:document.getElementById('providerContactType').value,contact:document.getElementById('providerContact').value.trim(),description:document.getElementById('providerDescription').value.trim()||'لا يوجد وصف إضافي'};const msg=`طلب إضافة خدمة إلى دليل العرب في موسكو\n\nالاسم: ${data.name}\nالقسم: ${data.category}\nالمنطقة: ${data.area}\nالسعر: ${data.price}\nطريقة التواصل: ${data.contactType}\nبيانات التواصل: ${data.contact}\nالوصف: ${data.description}\n\nأوافق على مراجعة الإعلان وفق سياسة الدليل.`;const box=document.getElementById('formMessage');box.style.display='block';box.textContent='تم تجهيز نص طلبك على هذه الصفحة. انسخه وأرسله إلى إدارة الدليل بعد إضافة وسيلة التواصل الرسمية. لم تُرسل البيانات أو تُحفظ تلقائيًا.';if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(msg).then(()=>{box.textContent='تم نسخ طلب التسجيل. أرسله إلى إدارة الدليل بعد تفعيل وسيلة التواصل الرسمية.'}).catch(()=>{window.prompt('انسخ طلب التسجيل التالي:',msg)})}else{window.prompt('انسخ طلب التسجيل التالي:',msg)}});
+function sendToTelegram(e) {
+    e.preventDefault();
+    var name = document.getElementById('s_name').value;
+    var desc = document.getElementById('s_desc').value;
+    var phone = document.getElementById('s_phone').value;
+    
+    var text = "طلب إضافة خدمة جديدة في دليل موسكو:%0A" +
+               "📌 الخدمة: " + encodeURIComponent(name) + "%0A" +
+               "📝 التفاصيل: " + encodeURIComponent(desc) + "%0A" +
+               "📞 التواصل: " + encodeURIComponent(phone);
+               
+    window.open("https://t.me/Naser_aboud?text=" + text, "_blank");
+}
 </script>
-</body></html>
+
+</body>
+</html>
